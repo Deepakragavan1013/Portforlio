@@ -14,7 +14,7 @@ const SKILLS = [
   { name: "SQL (MySQL, SQLite)", level: 85, category: "Data"  },
   { name: "Microsoft Excel",     level: 82, category: "Data"  },
   { name: "R Programming",       level: 70, category: "Data"  },
-  { name: "Machine Learning & NLP", level: 80, category: "AI/ML" },
+  { name: "Machine Learning & NLP", level: 82, category: "AI/ML" },
   { name: "Power BI & Tableau",  level: 80, category: "Viz"   },
   { name: "Git & GitHub",        level: 85, category: "Tools" },
 ];
@@ -123,6 +123,7 @@ function useIntersection(ref, threshold = 0.08) {
     );
     if (ref.current) obs.observe(ref.current);
     return () => obs.disconnect();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return v;
 }
