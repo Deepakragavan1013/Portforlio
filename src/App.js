@@ -57,6 +57,17 @@ const INTERNSHIPS = [
 ];
 
 const PROJECTS = [
+    {
+    title:"Live Weather App",
+    subtitle:"Personal Project | React · OpenWeatherMap API",
+    description:"A real-time weather application built with React. Features city search, 5-day forecast, °C/°F toggle, geolocation auto-detect, search history with localStorage, and animated skeleton loading. Deployed on Vercel.",
+    tags:["React","REST API","async/await","localStorage","CSS"],
+    color:"#06b6d4",
+    icon:"🌤",
+    links:[
+      { label:"Live Demo", url:"https://weather-app-xi-weld-77.vercel.app/" },
+    ],
+  },
   {
     title:"AI-Powered Conversational Chatbot", subtitle:"Personal Project | Jan 2026 – Feb 2026",
     description:"Developed an AI-powered conversational chatbot using Python through rule-based logic, intent recognition, and sentiment analysis. Handles greetings, small talk, FAQs, emotional responses using NLP. Integrated contextual memory for better flow, deployed via Streamlit.",
