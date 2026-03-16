@@ -27,7 +27,7 @@ const EDUCATION = [
 
 const INTERNSHIPS = [
   {
-    company:"Adshi5", role:"Frontend Developer Internship (Remote)", duration:"June 2025 – December 2025",
+    company:"Mittai Healthcare Pvt Ltd", role:"Frontend Developer Internship (Remote)", duration:"June 2025 – December 2025",
     color:"#f59e0b", icon:"💻",
     points:[
       "Developed client websites using Next.js with server-side rendering",
