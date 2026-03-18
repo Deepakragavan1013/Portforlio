@@ -38,7 +38,7 @@ const INTERNSHIPS = [
     ],
   },
   {
-    company:"Deloitte Australia", role:"Virtual Internship (Forage)", duration:"Virtual",
+    company:"Deloitte Australia", role:"Data Analyst Intern", duration:"Virtual",
     color:"#06b6d4", icon:"📊",
     points:[
       "Completed real-world consulting projects including data cleaning and analysis",
@@ -46,7 +46,7 @@ const INTERNSHIPS = [
     ],
   },
   {
-    company:"CodSoft", role:"Virtual Internship", duration:"Virtual",
+    company:"CodSoft", role:"Data Science & Machine Learning Intern", duration:"Virtual",
     color:"#8b5cf6", icon:"🤖",
     points:[
       "Data science and machine learning focused internship",
@@ -57,6 +57,18 @@ const INTERNSHIPS = [
 ];
 
 const PROJECTS = [
+  {
+  title: "HireHub",
+  subtitle: "Full Stack Project | React · Node.js · MongoDB · JWT",
+  description: "A full-stack job board platform for tech roles in India. Employers can post and manage jobs while job seekers can search, filter, apply with resume upload and track application status in real time. Features role-based authentication, REST API with 10+ endpoints, and PDF resume upload.",
+  tags: ["React", "Node.js", "Express", "MongoDB", "JWT Auth", "Tailwind CSS", "REST API", "Multer"],
+  color: "#2563eb",
+  icon: "💼",
+  links: [
+    { label: "Live Demo", url: "https://hirehub-delta.vercel.app/" },
+    { label: "GitHub", url: "https://github.com/Deepakragavan1013/HireHub" },
+  ],
+},
     {
     title:"Live Weather App",
     subtitle:"Personal Project | React · OpenWeatherMap API",
